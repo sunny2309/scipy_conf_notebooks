@@ -1,0 +1,10 @@
+ name: numbatutorial
+ dependencies:
+   - python=3.5
+   - numpy
+   - matplotlib
+   - numba=0.26.0
+   - jupyter
+   - ipython
+   - pip:
+     - line-profiler==2.0

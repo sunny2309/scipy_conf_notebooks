@@ -1,0 +1,549 @@
+         41373131 function calls (41372473 primitive calls) in 138.902 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  2943500   35.295    0.000   35.295    0.000 decoder.py:345(raw_decode)
+  5888274   18.868    0.000   18.868    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+  2943500   17.007    0.000   75.221    0.000 decoder.py:334(decode)
+       14   14.496    1.035  109.112    7.794 <string>:5(<listcomp>)
+  2943500   12.505    0.000   94.178    0.000 __init__.py:302(loads)
+  2943514    8.096    0.000    9.188    0.000 frame.py:6367(<genexpr>)
+  5898284    4.199    0.000    4.211    0.000 {built-in method builtins.isinstance}
+  2946358    3.739    0.000    3.739    0.000 {method 'startswith' of 'str' objects}
+        1    3.413    3.413  138.901  138.901 <string>:2(<module>)
+       14    3.311    0.236   12.498    0.893 {pandas._libs.lib.fast_unique_multiple_list_gen}
+  5887000    3.056    0.000    3.056    0.000 {method 'end' of '_sre.SRE_Match' objects}
+       14    2.696    0.193    2.696    0.193 {built-in method _pickle.dumps}
+       14    2.002    0.143    2.002    0.143 {pandas._libs.lib.dicts_to_array}
+  2943514    1.821    0.000    3.284    0.000 frame.py:6368(<genexpr>)
+       70    1.609    0.023    1.609    0.023 {pandas._libs.lib.maybe_convert_objects}
+       14    1.250    0.089    1.250    0.089 frame.py:6373(<listcomp>)
+  2943500    1.091    0.000    1.091    0.000 {method 'keys' of 'dict' objects}
+2946398/2946202    1.006    0.000    1.009    0.000 {built-in method builtins.len}
+      112    0.733    0.007    4.019    0.036 {built-in method builtins.any}
+       14    0.491    0.035    0.491    0.035 {method '_close_file' of 'tables.hdf5extension.File' objects}
+    33013    0.245    0.000    0.245    0.000 {built-in method _codecs.utf_8_decode}
+       70    0.212    0.003    0.222    0.003 {method '_create_array' of 'tables.hdf5extension.Array' objects}
+       28    0.199    0.007    0.220    0.008 internals.py:4796(_stack_arrays)
+    33013    0.193    0.000    0.439    0.000 codecs.py:318(decode)
+       98    0.167    0.002    0.168    0.002 {pandas._libs.lib.infer_dtype}
+       28    0.161    0.006    0.161    0.006 {method 'copy' of 'numpy.ndarray' objects}
+       14    0.130    0.009   21.518    1.537 frame.py:6229(_to_arrays)
+       14    0.071    0.005    0.073    0.005 {method '_g_new' of 'tables.hdf5extension.File' objects}
+       14    0.070    0.005    0.070    0.005 {method '_append' of 'tables.hdf5extension.VLArray' objects}
+      378    0.068    0.000    0.068    0.000 {method '_g_get_objinfo' of 'tables.hdf5extension.Group' objects}
+      448    0.058    0.000    0.073    0.000 {method '_g_setattr' of 'tables.hdf5extension.AttributeSet' objects}
+       84    0.056    0.001    0.056    0.001 {method '_g_close' of 'tables.hdf5extension.Leaf' objects}
+      938    0.035    0.000    0.035    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      476    0.027    0.000    0.027    0.000 {method '_g_getattr' of 'tables.hdf5extension.AttributeSet' objects}
+       98    0.017    0.000    0.017    0.000 {built-in method numpy.core.multiarray.empty}
+      896    0.016    0.000    0.051    0.000 fromnumeric.py:2408(prod)
+      448    0.014    0.000    0.156    0.000 attributeset.py:386(_g__setattr)
+       56    0.014    0.000    0.014    0.000 {built-in method numpy.core.multiarray.arange}
+     1246    0.012    0.000    0.023    0.000 file.py:383(register_node)
+2254/2226    0.011    0.000    0.034    0.000 {built-in method builtins.getattr}
+     1288    0.011    0.000    0.011    0.000 {built-in method numpy.core.multiarray.array}
+     2996    0.010    0.000    0.011    0.000 {built-in method builtins.hasattr}
+      546    0.010    0.000    0.061    0.000 attributeset.py:286(__getattr__)
+     1848    0.009    0.000    0.064    0.000 attributeset.py:64(issysattrname)
+       14    0.008    0.001    0.014    0.001 {method '_create_array' of 'tables.hdf5extension.VLArray' objects}
+      126    0.008    0.000    0.079    0.001 attributeset.py:205(__init__)
+      252    0.007    0.000    0.018    0.000 atom.py:517(__init__)
+       42    0.007    0.000    0.007    0.000 {method '_g_list_group' of 'tables.hdf5extension.Group' objects}
+       14    0.007    0.001    0.007    0.001 {method '_g_delete' of 'tables.hdf5extension.Node' objects}
+      168    0.007    0.000    0.018    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+      994    0.006    0.000    0.006    0.000 group.py:820(__setattr__)
+       84    0.006    0.000    3.543    0.042 pytables.py:2633(write_array)
+       14    0.006    0.000    0.006    0.000 {built-in method io.open}
+       42    0.006    0.000    0.006    0.000 {pandas._libs.lib.map_infer_mask}
+      168    0.005    0.000    0.020    0.000 cast.py:935(maybe_cast_to_datetime)
+     1288    0.005    0.000    0.005    0.000 weakref.py:153(__contains__)
+      336    0.005    0.000    0.150    0.000 attributeset.py:443(__setattr__)
+ 1148/980    0.005    0.000    0.110    0.000 file.py:409(get_node)
+     1386    0.005    0.000    0.005    0.000 {method 'pop' of 'tables.lrucacheextension.NodeCache' objects}
+     1232    0.005    0.000    0.028    0.000 file.py:396(cache_node)
+       42    0.005    0.000    0.076    0.002 pytables.py:4545(_convert_string_array)
+      252    0.005    0.000    0.006    0.000 atom.py:120(_normalize_shape)
+      112    0.005    0.000    0.474    0.004 node.py:199(__init__)
+      392    0.004    0.000    0.006    0.000 path.py:172(join_path)
+      434    0.004    0.000    0.010    0.000 path.py:75(check_attribute_name)
+     2240    0.004    0.000    0.004    0.000 weakref.py:134(__getitem__)
+       98    0.004    0.000    0.022    0.000 group.py:492(_g_refnode)
+      378    0.004    0.000    0.072    0.000 group.py:387(_g_check_has_child)
+       56    0.004    0.000    0.399    0.007 pytables.py:2491(write_index)
+1288/1120    0.003    0.000    0.113    0.000 file.py:1537(_get_node)
+       42    0.003    0.000    0.003    0.000 {built-in method posix.urandom}
+       84    0.003    0.000    0.044    0.001 series.py:155(__init__)
+      112    0.003    0.000    0.014    0.000 internals.py:2916(make_block)
+       14    0.003    0.000    3.752    0.268 pytables.py:2904(write)
+     1456    0.003    0.000    0.009    0.000 generic.py:7(_check)
+       70    0.003    0.000    0.312    0.004 array.py:189(_g_create)
+      924    0.003    0.000    0.027    0.000 attributeset.py:197(_g_getnode)
+     1274    0.003    0.000    0.003    0.000 {method 'sort' of 'list' objects}
+      196    0.003    0.000    0.003    0.000 {built-in method posix.stat}
+       56    0.003    0.000    0.104    0.002 pytables.py:4420(_convert_index)
+      182    0.002    0.000    0.019    0.000 atom.py:427(from_kind)
+      840    0.002    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+      140    0.002    0.000    0.003    0.000 {method 'clear' of 'dict' objects}
+     1022    0.002    0.000    0.082    0.000 utils.py:238(newfget)
+      154    0.002    0.000    0.026    0.000 series.py:3095(_sanitize_array)
+      112    0.002    0.000    0.011    0.000 cast.py:838(maybe_infer_to_datetimelike)
+      154    0.002    0.000    0.094    0.001 file.py:1548(get_node)
+       56    0.002    0.000    0.002    0.000 {built-in method pandas._libs.algos.ensure_platform_int}
+      252    0.002    0.000    0.005    0.000 atom.py:143(_normalize_default)
+       28    0.002    0.000    0.025    0.001 <frozen importlib._bootstrap>:870(_find_spec)
+       70    0.002    0.000    0.390    0.006 array.py:130(__init__)
+      224    0.002    0.000    0.004    0.000 atom.py:59(split_type)
+      126    0.002    0.000    0.002    0.000 {method '_g_list_attr' of 'tables.hdf5extension.AttributeSet' objects}
+      840    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+       42    0.002    0.000    0.012    0.000 group.py:340(_g_add_children_names)
+      196    0.002    0.000    0.021    0.000 group.py:418(__contains__)
+      896    0.002    0.000    0.004    0.000 attributeset.py:68(<listcomp>)
+       14    0.002    0.000    0.238    0.017 internals.py:4640(form_blocks)
+       42    0.002    0.000    0.006    0.000 iostream.py:180(schedule)
+       70    0.002    0.000    0.479    0.007 file.py:1063(create_array)
+      882    0.002    0.000    0.005    0.000 dtypes.py:85(is_dtype)
+       14    0.002    0.000    0.002    0.000 {method '_g_create' of 'tables.hdf5extension.Group' objects}
+      112    0.002    0.000    0.009    0.000 node.py:348(_g_set_location)
+      364    0.002    0.000    0.002    0.000 proxydict.py:42(__setitem__)
+       14    0.002    0.000    0.002    0.000 {pandas._libs.lib.clean_index_list}
+      140    0.002    0.000    0.009    0.000 node.py:470(_f_close)
+      140    0.002    0.000    0.021    0.000 group.py:684(_f_get_child)
+      336    0.002    0.000    0.003    0.000 range.py:469(__len__)
+       14    0.002    0.000   21.388    1.528 frame.py:6365(_list_of_dict_to_arrays)
+      126    0.002    0.000    0.005    0.000 node.py:430(_g_del_location)
+       14    0.002    0.000    0.002    0.000 {tables.utilsextension.read_f_attr}
+     1680    0.002    0.000    0.002    0.000 {method 'rstrip' of 'str' objects}
+      182    0.002    0.000    0.025    0.000 atom.py:355(from_dtype)
+       14    0.002    0.000    0.108    0.008 file.py:748(__init__)
+       28    0.002    0.000    0.009    0.000 base.py:181(__new__)
+       84    0.002    0.000    0.049    0.001 leaf.py:309(_g_post_init_hook)
+       98    0.002    0.000    0.005    0.000 internals.py:2071(__init__)
+       42    0.002    0.000    0.002    0.000 {pandas._libs.lib.isnaobj}
+       14    0.002    0.000    0.029    0.002 vlarray.py:379(_g_create)
+      490    0.002    0.000    0.003    0.000 common.py:1773(_get_dtype_type)
+       70    0.002    0.000    1.618    0.023 frame.py:6390(convert)
+      924    0.002    0.000    0.028    0.000 attributeset.py:200(_v_node)
+       14    0.002    0.000    0.002    0.000 {method '_g_get_gchild_attr' of 'tables.hdf5extension.Group' objects}
+       28    0.001    0.000    0.022    0.001 <frozen importlib._bootstrap_external>:1117(_get_spec)
+      168    0.001    0.000    0.068    0.000 file.py:500(_close_nodes)
+      896    0.001    0.000    0.035    0.000 _methods.py:34(_prod)
+       42    0.001    0.000    0.073    0.002 file.py:531(close_subtree)
+       70    0.001    0.000    0.002    0.000 array.py:112(rowsize)
+      126    0.001    0.000    0.003    0.000 weakref.py:165(__setitem__)
+       14    0.001    0.000    2.698    0.193 atom.py:1085(toarray)
+       84    0.001    0.000    0.001    0.000 filters.py:314(__init__)
+       84    0.001    0.000    0.003    0.000 generic.py:3616(__setattr__)
+       42    0.001    0.000    0.020    0.000 strings.py:1394(_wrap_result)
+      602    0.001    0.000    0.001    0.000 node.py:336(_g_check_open)
+       42    0.001    0.000    0.006    0.000 missing.py:123(_isna_ndarraylike)
+      210    0.001    0.000    0.003    0.000 weakref.py:217(keys)
+      476    0.001    0.000    0.004    0.000 common.py:478(is_categorical_dtype)
+      112    0.001    0.000    0.001    0.000 {built-in method pandas._libs.lib.infer_datetimelike_array}
+     1554    0.001    0.000    0.001    0.000 {built-in method builtins.issubclass}
+      588    0.001    0.000    0.005    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+      112    0.001    0.000    0.006    0.000 internals.py:107(__init__)
+      140    0.001    0.000    0.019    0.000 atom.py:400(from_type)
+      294    0.001    0.000    0.001    0.000 {method 'view' of 'numpy.ndarray' objects}
+       14    0.001    0.000    0.003    0.000 internals.py:3109(_rebuild_blknos_and_blklocs)
+      112    0.001    0.000    0.004    0.000 internals.py:226(mgr_locs)
+      154    0.001    0.000    0.002    0.000 flavor.py:380(_conv_numpy_to_numpy)
+       84    0.001    0.000    0.422    0.005 leaf.py:241(__init__)
+       14    0.001    0.000   21.778    1.556 frame.py:316(__init__)
+       84    0.001    0.000    0.062    0.001 leaf.py:729(_f_close)
+       14    0.001    0.000    3.877    0.277 pytables.py:1291(_write_to_group)
+      182    0.001    0.000    0.002    0.000 abc.py:178(__instancecheck__)
+    56/28    0.001    0.000    0.031    0.001 <frozen importlib._bootstrap>:966(_find_and_load)
+      840    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       98    0.001    0.000    0.001    0.000 generic.py:120(__init__)
+      182    0.001    0.000    0.034    0.000 group.py:809(__getattr__)
+       28    0.001    0.000    0.002    0.000 numeric.py:660(require)
+       56    0.001    0.000    0.005    0.000 common.py:207(_default_index)
+       84    0.001    0.000    0.010    0.000 internals.py:4358(__init__)
+      210    0.001    0.000    0.015    0.000 base.py:588(values)
+       56    0.001    0.000    0.002    0.000 range.py:119(_simple_new)
+      182    0.001    0.000    0.001    0.000 _weakrefset.py:70(__contains__)
+      154    0.001    0.000    0.021    0.000 series.py:3112(_try_cast)
+      448    0.001    0.000    0.001    0.000 file.py:2129(is_undo_enabled)
+     1568    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+       14    0.001    0.000    2.773    0.198 vlarray.py:502(append)
+       14    0.001    0.000    0.002    0.000 file.py:762(<listcomp>)
+      126    0.001    0.000    0.080    0.001 node.py:165(_v_attrs)
+       84    0.001    0.000    0.007    0.000 atom.py:635(__init__)
+      154    0.001    0.000    0.164    0.001 flavor.py:368(conv_to_numpy)
+      154    0.001    0.000    0.001    0.000 cast.py:826(maybe_castable)
+      462    0.001    0.000    0.002    0.000 file.py:2111(_check_writable)
+       56    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+       14    0.001    0.000    0.002    0.000 inspect.py:2092(_signature_from_function)
+       14    0.001    0.000    0.002    0.000 vlarray.py:450(_getnobjects)
+       28    0.001    0.000    0.001    0.000 {method '_g_open' of 'tables.hdf5extension.Group' objects}
+      336    0.001    0.000    0.001    0.000 {built-in method builtins.max}
+      462    0.001    0.000    0.001    0.000 file.py:2105(_iswritable)
+      840    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       42    0.001    0.000    0.005    0.000 strings.py:1893(_make_accessor)
+       56    0.001    0.000    0.001    0.000 base.py:396(_simple_new)
+       42    0.001    0.000    0.049    0.001 group.py:237(_g_post_init_hook)
+      154    0.001    0.000    0.165    0.001 flavor.py:113(array_of_flavor2)
+       42    0.001    0.000    0.017    0.000 strings.py:159(_map)
+       56    0.001    0.000    0.003    0.000 range.py:56(__new__)
+       56    0.001    0.000    0.005    0.000 description.py:196(__init__)
+      154    0.001    0.000    0.002    0.000 flavor.py:183(flavor_of)
+       28    0.001    0.000    0.001    0.000 inspect.py:2710(__init__)
+      168    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+      448    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
+       70    0.001    0.000    0.004    0.000 internals.py:4799(_asarray_compat)
+       14    0.001    0.000    0.003    0.000 group.py:1106(__init__)
+      126    0.001    0.000    0.001    0.000 series.py:336(name)
+      364    0.001    0.000    0.005    0.000 numeric.py:463(asarray)
+       84    0.001    0.000    0.001    0.000 generic.py:3600(__getattr__)
+       84    0.001    0.000    0.001    0.000 {method '_g_new' of 'tables.hdf5extension.Leaf' objects}
+      308    0.001    0.000    0.002    0.000 common.py:334(is_datetime64tz_dtype)
+      140    0.001    0.000    0.001    0.000 weakref.py:260(pop)
+      602    0.001    0.000    0.001    0.000 file.py:2094(_check_open)
+       14    0.001    0.000    0.564    0.040 file.py:2654(close)
+       84    0.001    0.000    0.001    0.000 series.py:300(_set_axis)
+       56    0.001    0.000    0.001    0.000 {built-in method posix.access}
+       56    0.001    0.000    0.001    0.000 pytables.py:1480(__init__)
+       14    0.001    0.000    2.697    0.193 atom.py:1219(_tobuffer)
+       28    0.001    0.000    0.056    0.002 group.py:204(__init__)
+       70    0.001    0.000    0.002    0.000 leaf.py:370(_calc_nrowsinbuf)
+       42    0.001    0.000    0.001    0.000 group.py:267(__del__)
+      126    0.001    0.000    0.001    0.000 weakref.py:339(__init__)
+      252    0.001    0.000    0.001    0.000 proxydict.py:25(__init__)
+      224    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+       42    0.001    0.000    0.002    0.000 strings.py:1373(__init__)
+      154    0.001    0.000    0.001    0.000 flavor.py:357(_is_numpy)
+    56/28    0.001    0.000    0.028    0.001 <frozen importlib._bootstrap>:936(_find_and_load_unlocked)
+       84    0.001    0.000    0.001    0.000 pytables.py:2629(_is_empty_array)
+       56    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:78(acquire)
+       28    0.001    0.000    0.002    0.000 fromnumeric.py:1730(sum)
+       14    0.001    0.000    0.001    0.000 weakref.py:102(__init__)
+       14    0.001    0.000    0.055    0.004 internals.py:4764(_multi_blockify)
+       14    0.001    0.000    0.006    0.000 frame.py:6419(_homogenize)
+      126    0.001    0.000    0.008    0.000 base.py:4152(_ensure_index)
+      168    0.001    0.000    0.004    0.000 inference.py:234(is_list_like)
+    28/14    0.001    0.000    0.004    0.000 inspect.py:2173(_signature_from_callable)
+      224    0.001    0.000    0.001    0.000 {method 'groups' of '_sre.SRE_Match' objects}
+       14    0.001    0.000    4.584    0.327 pytables.py:268(to_hdf)
+       14    0.001    0.000    4.585    0.328 generic.py:1419(to_hdf)
+       84    0.001    0.000    0.001    0.000 path.py:203(split_path)
+      126    0.001    0.000    0.001    0.000 base.py:145(__setattr__)
+      126    0.001    0.000    0.001    0.000 pytables.py:2308(attrs)
+      126    0.001    0.000    0.001    0.000 weakref.py:334(__new__)
+       98    0.001    0.000    0.001    0.000 common.py:297(is_datetime64_dtype)
+       42    0.001    0.000    0.018    0.000 strings.py:1291(str_encode)
+      434    0.001    0.000    0.001    0.000 {method '__contains__' of 'frozenset' objects}
+       14    0.000    0.000    0.001    0.000 base.py:1315(is_unique)
+      210    0.000    0.000    0.004    0.000 common.py:191(is_categorical)
+       14    0.000    0.000    0.001    0.000 file.py:365(__init__)
+       84    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+      210    0.000    0.000    0.004    0.000 common.py:223(is_datetimetz)
+      238    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x7fe09b73b740}
+      182    0.000    0.000    0.002    0.000 common.py:85(is_object_dtype)
+       14    0.000    0.000    0.036    0.003 vlarray.py:254(__init__)
+       28    0.000    0.000    0.005    0.000 base.py:1825(take)
+      224    0.000    0.000    0.000    0.000 {built-in method pandas._libs.lib.isscalar}
+       84    0.000    0.000    0.001    0.000 _weakrefset.py:26(__exit__)
+       28    0.000    0.000    0.032    0.001 common.py:128(_stringify_path)
+       56    0.000    0.000    0.024    0.000 {built-in method builtins.setattr}
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+       42    0.000    0.000    0.082    0.002 group.py:1148(_g_load_child)
+       70    0.000    0.000    0.001    0.000 node.py:156(_g_getparent)
+       14    0.000    0.000    0.002    0.000 pytables.py:1205(_create_storer)
+       42    0.000    0.000    0.008    0.000 missing.py:51(_isna_new)
+       70    0.000    0.000    0.001    0.000 dtypes.py:678(is_dtype)
+      112    0.000    0.000    0.001    0.000 range.py:72(_ensure_int)
+       56    0.000    0.000    0.005    0.000 group.py:882(_g_close)
+       28    0.000    0.000    0.001    0.000 pytables.py:2236(set_version)
+      168    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+      112    0.000    0.000    0.001    0.000 __init__.py:200(iteritems)
+       42    0.000    0.000    0.000    0.000 {method '_g_close_group' of 'tables.hdf5extension.Group' objects}
+      140    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+       14    0.000    0.000    0.038    0.003 file.py:1356(create_vlarray)
+      182    0.000    0.000    0.001    0.000 path.py:227(isvisiblename)
+       98    0.000    0.000    0.003    0.000 path.py:132(check_name_validity)
+       28    0.000    0.000    0.006    0.000 iostream.py:342(write)
+      756    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+      168    0.000    0.000    0.001    0.000 internals.py:4474(dtype)
+       14    0.000    0.000    0.004    0.000 atom.py:589(_get_init_args)
+       84    0.000    0.000    0.006    0.000 atom.py:652(__init__)
+       42    0.000    0.000    0.038    0.001 strings.py:1651(encode)
+       98    0.000    0.000    0.006    0.000 common.py:1596(is_extension_type)
+       28    0.000    0.000    0.000    0.000 {method 'find_loader' of 'zipimport.zipimporter' objects}
+       14    0.000    0.000    0.172    0.012 internals.py:4750(_simple_blockify)
+       14    0.000    0.000    0.124    0.009 pytables.py:442(__init__)
+       84    0.000    0.000    0.000    0.000 pytables.py:2288(_handle)
+       98    0.000    0.000    0.009    0.000 file.py:877(_get_or_create_path)
+       56    0.000    0.000    0.001    0.000 dtypes.py:556(is_dtype)
+       56    0.000    0.000    0.000    0.000 pytables.py:1504(set_name)
+      182    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+       14    0.000    0.000    0.005    0.000 file.py:837(__get_root_group)
+      140    0.000    0.000    0.164    0.001 flavor.py:170(array_as_internal)
+       28    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1102(_legacy_get_spec)
+       84    0.000    0.000    0.007    0.000 atom.py:694(__init__)
+       70    0.000    0.000    0.000    0.000 base.py:1726(__getitem__)
+       14    0.000    0.000    3.878    0.277 pytables.py:838(put)
+       28    0.000    0.000    0.001    0.000 common.py:375(_asarray_tuplesafe)
+       14    0.000    0.000    0.012    0.001 pytables.py:2266(set_object_info)
+       28    0.000    0.000    0.000    0.000 base.py:733(_get_attributes_dict)
+      168    0.000    0.000    0.001    0.000 series.py:347(dtype)
+       42    0.000    0.000    0.001    0.000 internals.py:3053(shape)
+       28    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+       42    0.000    0.000    0.000    0.000 inspect.py:2431(__init__)
+       14    0.000    0.000    0.244    0.017 internals.py:4629(create_block_manager_from_arrays)
+       98    0.000    0.000    0.001    0.000 common.py:1722(_get_dtype)
+      140    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_encode}
+       84    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:861(_find_spec_legacy)
+       70    0.000    0.000    0.000    0.000 leaf.py:475(_g_fix_byteorder_data)
+    42/14    0.000    0.000    0.001    0.000 utils.py:139(check_file_access)
+       14    0.000    0.000    0.001    0.000 internals.py:3234(_verify_integrity)
+       28    0.000    0.000    0.066    0.002 pytables.py:1084(get_node)
+       14    0.000    0.000    0.005    0.000 internals.py:3012(__init__)
+       14    0.000    0.000    1.618    0.116 frame.py:6396(<listcomp>)
+       14    0.000    0.000    0.007    0.000 {built-in method builtins.print}
+      112    0.000    0.000    0.001    0.000 node.py:833(_g_check_group)
+       98    0.000    0.000    0.001    0.000 common.py:372(is_timedelta64_dtype)
+       84    0.000    0.000    0.000    0.000 _weakrefset.py:20(__enter__)
+       28    0.000    0.000    0.002    0.000 base.py:433(_shallow_copy)
+      168    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+      112    0.000    0.000    0.000    0.000 base.py:551(_reset_identity)
+       56    0.000    0.000    0.000    0.000 numeric.py:729(<genexpr>)
+       42    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+       84    0.000    0.000    0.000    0.000 internals.py:4498(external_values)
+      252    0.000    0.000    0.000    0.000 internals.py:4404(_block)
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+       42    0.000    0.000    0.074    0.002 group.py:875(_g_close_descendents)
+       84    0.000    0.000    0.015    0.000 base.py:762(_values)
+       56    0.000    0.000    0.002    0.000 common.py:511(is_string_dtype)
+       14    0.000    0.000    0.001    0.000 inspect.py:1777(_signature_bound_method)
+      252    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       14    0.000    0.000    0.109    0.008 pytables.py:543(open)
+      196    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+      168    0.000    0.000    0.003    0.000 common.py:118(is_sparse)
+       84    0.000    0.000    0.000    0.000 _weakrefset.py:16(__init__)
+       84    0.000    0.000    0.000    0.000 series.py:326(_set_subtyp)
+       56    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:147(__enter__)
+       84    0.000    0.000    0.000    0.000 pytables.py:2292(_filters)
+      140    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+       14    0.000    0.000    0.109    0.008 file.py:224(open_file)
+       84    0.000    0.000    0.000    0.000 series.py:340(name)
+      252    0.000    0.000    0.000    0.000 atom.py:140(<genexpr>)
+       84    0.000    0.000    0.000    0.000 atom.py:497(size)
+       28    0.000    0.000    0.000    0.000 internals.py:311(ftype)
+      168    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:847(__exit__)
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+      126    0.000    0.000    0.001    0.000 file.py:448(drop_from_cache)
+       70    0.000    0.000    0.000    0.000 pytables.py:623(is_open)
+       14    0.000    0.000    0.001    0.000 vlarray.py:351(_calc_chunkshape)
+       42    0.000    0.000    0.017    0.000 strings.py:154(_na_map)
+       42    0.000    0.000    0.001    0.000 threading.py:1104(is_alive)
+       84    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000  138.902  138.902 {built-in method builtins.exec}
+       14    0.000    0.000    0.001    0.000 missing.py:255(array_equivalent)
+      280    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+      168    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:843(__enter__)
+       14    0.000    0.000    0.023    0.002 group.py:923(_g_remove)
+      224    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      252    0.000    0.000    0.000    0.000 atom.py:526(<genexpr>)
+       84    0.000    0.000    0.001    0.000 series.py:367(values)
+       70    0.000    0.000    0.001    0.000 common.py:442(is_interval_dtype)
+       14    0.000    0.000    1.618    0.116 frame.py:6380(_convert_object_array)
+       28    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       14    0.000    0.000    0.019    0.001 file.py:914(create_group)
+       42    0.000    0.000    0.002    0.000 file.py:551(<listcomp>)
+      140    0.000    0.000    0.001    0.000 strings.py:1310(<lambda>)
+       70    0.000    0.000    0.000    0.000 leaf.py:193(maindim)
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+       56    0.000    0.000    0.001    0.000 common.py:409(is_period_dtype)
+       14    0.000    0.000    0.000    0.000 leaf.py:52(calc_chunksize)
+       14    0.000    0.000    0.000    0.000 vlarray.py:346(_g_post_init_hook)
+      182    0.000    0.000    0.000    0.000 {built-in method pandas._libs.algos.ensure_object}
+      112    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       14    0.000    0.000    0.250    0.018 frame.py:6123(_arrays_to_mgr)
+      196    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       98    0.000    0.000    0.000    0.000 base.py:557(__len__)
+       28    0.000    0.000    0.000    0.000 {method 'take' of 'numpy.ndarray' objects}
+       14    0.000    0.000    0.012    0.001 node.py:509(_g_remove)
+       84    0.000    0.000    0.000    0.000 internals.py:3130(_get_items)
+       28    0.000    0.000    0.074    0.003 group.py:893(_f_close)
+      196    0.000    0.000    0.000    0.000 internals.py:189(mgr_locs)
+       14    0.000    0.000    0.006    0.000 atom.py:560(copy)
+       28    0.000    0.000    0.028    0.001 {built-in method builtins.__import__}
+       14    0.000    0.000    0.001    0.000 utils.py:121(convert_to_np_atom2)
+       84    0.000    0.000    0.000    0.000 filters.py:179(shuffle_bitshuffle)
+       42    0.000    0.000    0.005    0.000 accessor.py:50(__get__)
+       42    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       14    0.000    0.000    0.564    0.040 pytables.py:615(close)
+       42    0.000    0.000    0.001    0.000 file.py:557(<listcomp>)
+      280    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       56    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:151(__exit__)
+       14    0.000    0.000    0.001    0.000 group.py:178(_g_getfilters)
+       42    0.000    0.000    0.000    0.000 file.py:540(<listcomp>)
+       14    0.000    0.000    0.013    0.001 range.py:157(_data)
+      126    0.000    0.000    0.000    0.000 {method '_g_new' of 'tables.hdf5extension.AttributeSet' objects}
+       14    0.000    0.000    0.002    0.000 base.py:2018(equals)
+       28    0.000    0.000    0.002    0.000 common.py:1545(is_bool_dtype)
+       28    0.000    0.000    0.000    0.000 iostream.py:284(_is_master_process)
+       42    0.000    0.000    0.000    0.000 {method '_g_new' of 'tables.hdf5extension.Node' objects}
+      126    0.000    0.000    0.000    0.000 node.py:288(__del__)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+       98    0.000    0.000    0.000    0.000 node.py:864(_g_check_name)
+       14    0.000    0.000    0.000    0.000 file.py:115(remove)
+       14    0.000    0.000    0.000    0.000 file.py:560(shutdown)
+       14    0.000    0.000    0.000    0.000 base.py:1594(_engine)
+       14    0.000    0.000    0.000    0.000 {built-in method pandas._libs.lib.array_equivalent_object}
+       14    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+      196    0.000    0.000    0.000    0.000 pytables.py:2631(<genexpr>)
+       14    0.000    0.000    0.001    0.000 pytables.py:2225(__init__)
+      196    0.000    0.000    0.000    0.000 internals.py:307(dtype)
+       42    0.000    0.000    0.000    0.000 codecs.py:942(getencoder)
+       56    0.000    0.000    0.000    0.000 pytables.py:62(_ensure_decoded)
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+       42    0.000    0.000    0.001    0.000 internals.py:3219(__len__)
+       14    0.000    0.000    0.000    0.000 config.py:78(_get_single_key)
+       42    0.000    0.000    0.000    0.000 iostream.py:87(_event_pipe)
+       42    0.000    0.000    0.001    0.000 generic.py:1116(<genexpr>)
+       42    0.000    0.000    0.000    0.000 common.py:1456(is_string_like_dtype)
+       14    0.000    0.000    0.000    0.000 pytables.py:2241(<listcomp>)
+       42    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       14    0.000    0.000    0.023    0.002 node.py:532(_f_remove)
+       42    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+       84    0.000    0.000    0.000    0.000 pytables.py:243(_tables)
+       28    0.000    0.000    0.022    0.001 <frozen importlib._bootstrap_external>:1149(find_spec)
+       56    0.000    0.000    0.000    0.000 pytables.py:1188(_check_if_open)
+       14    0.000    0.000    0.000    0.000 internals.py:3527(_consolidate_check)
+       28    0.000    0.000    0.000    0.000 generic.py:359(_get_axis_name)
+       14    0.000    0.000    0.020    0.001 file.py:1992(__contains__)
+       14    0.000    0.000    0.009    0.001 group.py:170(_g_getnchildren)
+      126    0.000    0.000    0.001    0.000 internals.py:3055(<genexpr>)
+       28    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       28    0.000    0.000    0.000    0.000 __init__.py:23(find_module)
+       14    0.000    0.000    0.002    0.000 group.py:284(_g_get_child_group_class)
+       14    0.000    0.000    3.878    0.277 pytables.py:275(<lambda>)
+       14    0.000    0.000    0.000    0.000 config.py:547(_get_root)
+       28    0.000    0.000    0.000    0.000 {method 'fill' of 'numpy.ndarray' objects}
+       42    0.000    0.000    0.000    0.000 threading.py:1062(_wait_for_tstate_lock)
+       14    0.000    0.000    0.001    0.000 generic.py:1077(empty)
+       56    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       42    0.000    0.000    0.000    0.000 base.py:563(__array__)
+       42    0.000    0.000    0.000    0.000 base.py:140(_freeze)
+       56    0.000    0.000    0.000    0.000 common.py:238(_all_none)
+       14    0.000    0.000    0.000    0.000 inspect.py:485(unwrap)
+       56    0.000    0.000    0.000    0.000 inspect.py:2755(<genexpr>)
+       56    0.000    0.000    0.000    0.000 six.py:184(find_module)
+       14    0.000    0.000    0.005    0.000 pytables.py:2430(set_attrs)
+       84    0.000    0.000    0.000    0.000 weakref.py:125(_commit_removals)
+       14    0.000    0.000    0.001    0.000 utils.py:91(convert_to_np_atom)
+       14    0.000    0.000    0.000    0.000 internals.py:3528(<listcomp>)
+       28    0.000    0.000    0.000    0.000 config.py:562(_get_deprecated_option)
+       14    0.000    0.000    0.000    0.000 file.py:111(add)
+       14    0.000    0.000    0.000    0.000 weakref.py:288(update)
+      112    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       14    0.000    0.000    0.000    0.000 inspect.py:2793(replace)
+       14    0.000    0.000    0.000    0.000 file.py:123(get_handlers_by_name)
+       14    0.000    0.000    0.000    0.000 pytables.py:1192(_validate_format)
+       14    0.000    0.000    0.004    0.000 inspect.py:2779(from_callable)
+       56    0.000    0.000    0.000    0.000 base.py:578(dtype)
+       28    0.000    0.000    0.000    0.000 {built-in method math.log10}
+      112    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
+       14    0.000    0.000    0.024    0.002 file.py:1740(remove_node)
+       28    0.000    0.000    0.000    0.000 base.py:1843(_assert_take_fillable)
+       42    0.000    0.000    0.008    0.000 missing.py:26(isna)
+       28    0.000    0.000    0.000    0.000 common.py:824(is_signed_integer_dtype)
+       28    0.000    0.000    0.001    0.000 iostream.py:297(_schedule_flush)
+       14    0.000    0.000    0.001    0.000 config.py:96(_get_option)
+       14    0.000    0.000    0.000    0.000 internals.py:3013(<listcomp>)
+       14    0.000    0.000    0.564    0.040 pytables.py:520(__exit__)
+       28    0.000    0.000    0.000    0.000 six.py:586(iteritems)
+      112    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       14    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
+       14    0.000    0.000    0.001    0.000 group.py:551(_g_unrefnode)
+       28    0.000    0.000    0.000    0.000 common.py:1493(is_float_dtype)
+       42    0.000    0.000    0.000    0.000 atom.py:630(itemsize)
+       28    0.000    0.000    0.001    0.000 common.py:1009(is_datetime64_any_dtype)
+       14    0.000    0.000    0.000    0.000 atom.py:606(<listcomp>)
+       28    0.000    0.000    0.000    0.000 internals.py:4805(_shape_compat)
+       28    0.000    0.000    0.000    0.000 {pandas._libs.lib.values_from_object}
+       42    0.000    0.000    0.000    0.000 internals.py:3057(ndim)
+       28    0.000    0.000    0.000    0.000 generic.py:372(_get_axis)
+      168    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:41(_relax_case)
+       28    0.000    0.000    0.000    0.000 base.py:735(<listcomp>)
+       14    0.000    0.000    0.000    0.000 leaf.py:32(csformula)
+       42    0.000    0.000    0.000    0.000 atom.py:609(<genexpr>)
+       42    0.000    0.000    0.001    0.000 series.py:483(__len__)
+       14    0.000    0.000    0.000    0.000 genericpath.py:27(isfile)
+       42    0.000    0.000    0.000    0.000 internals.py:3236(<genexpr>)
+       14    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+       28    0.000    0.000    0.028    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+       14    0.000    0.000    0.001    0.000 {method 'any' of 'numpy.ndarray' objects}
+       28    0.000    0.000    0.000    0.000 common.py:873(is_unsigned_integer_dtype)
+       14    0.000    0.000    0.004    0.000 inspect.py:3031(signature)
+       14    0.000    0.000    0.001    0.000 config.py:223(__call__)
+       84    0.000    0.000    0.000    0.000 node.py:453(_g_post_init_hook)
+       28    0.000    0.000    0.000    0.000 pytables.py:472(root)
+       14    0.000    0.000    0.000    0.000 base.py:1597(<lambda>)
+       28    0.000    0.000    0.001    0.000 _methods.py:31(_sum)
+      126    0.000    0.000    0.000    0.000 attributeset.py:660(_g_close)
+       14    0.000    0.000    0.001    0.000 flavor.py:201(array_of_flavor)
+       56    0.000    0.000    0.000    0.000 pytables.py:2252(format_type)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:707(find_spec)
+       42    0.000    0.000    0.000    0.000 file.py:546(<listcomp>)
+       28    0.000    0.000    0.000    0.000 weakref.py:148(__len__)
+       84    0.000    0.000    0.000    0.000 inspect.py:2492(kind)
+       84    0.000    0.000    0.000    0.000 internals.py:155(external_values)
+       56    0.000    0.000    0.000    0.000 range.py:146(_validate_dtype)
+       28    0.000    0.000    0.000    0.000 base.py:593(get_values)
+       56    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       56    0.000    0.000    0.000    0.000 internals.py:4768(<lambda>)
+       28    0.000    0.000    0.000    0.000 internals.py:3519(is_consolidated)
+       14    0.000    0.000    0.000    0.000 utils.py:41(correct_byteorder)
+       28    0.000    0.000    0.000    0.000 inspect.py:159(isfunction)
+       28    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 internals.py:299(shape)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:780(find_spec)
+       84    0.000    0.000    0.000    0.000 numeric.py:99(is_all_dates)
+       14    0.000    0.000    0.000    0.000 config.py:529(_select_options)
+       42    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+       14    0.000    0.000    0.005    0.000 pytables.py:2440(write)
+       28    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1281(_fill_cache)
+       42    0.000    0.000    0.000    0.000 series.py:284(_constructor)
+       70    0.000    0.000    0.000    0.000 inspect.py:2480(name)
+       14    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+       14    0.000    0.000    0.000    0.000 genericpath.py:16(exists)
+       14    0.000    0.000    0.000    0.000 inference.py:338(is_named_tuple)
+       14    0.000    0.000    0.000    0.000 internals.py:3824(_consolidate_inplace)
+       14    0.000    0.000    0.000    0.000 config.py:603(_warn_if_deprecated)
+       28    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+       14    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+       14    0.000    0.000    0.000    0.000 leaf.py:42(limit_es)
+       42    0.000    0.000    0.000    0.000 threading.py:506(is_set)
+       14    0.000    0.000    0.001    0.000 base.py:1623(inferred_type)
+       14    0.000    0.000    0.000    0.000 base.py:531(is_)
+       14    0.000    0.000    0.000    0.000 leaf.py:149(chunkshape)
+       14    0.000    0.000    0.001    0.000 _methods.py:37(_any)
+       14    0.000    0.000    0.000    0.000 inspect.py:505(_is_wrapper)
+       28    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       56    0.000    0.000    0.000    0.000 {built-in method pandas._libs.lib.is_integer}
+       14    0.000    0.000    0.000    0.000 {method '_get_file_id' of 'tables.hdf5extension.File' objects}
+       14    0.000    0.000    0.000    0.000 pytables.py:69(_ensure_encoding)
+       28    0.000    0.000    0.000    0.000 inspect.py:2785(parameters)
+       14    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       14    0.000    0.000    0.000    0.000 config.py:590(_translate_key)
+       14    0.000    0.000    0.000    0.000 utils.py:61(set_vml_num_threads)
+       14    0.000    0.000    0.000    0.000 file.py:765(<listcomp>)
+       14    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+       14    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+       14    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISREG}
+       28    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+       28    0.000    0.000    0.000    0.000 inspect.py:2484(default)
+       14    0.000    0.000    0.000    0.000 file.py:769(<listcomp>)
+       28    0.000    0.000    0.000    0.000 file.py:180(_checkfilters)
+       14    0.000    0.000    0.000    0.000 pytables.py:517(__enter__)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       14    0.000    0.000    0.000    0.000 __init__.py:257(u_safe)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

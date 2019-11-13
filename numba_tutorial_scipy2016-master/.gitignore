@@ -1,0 +1,7 @@
+*.so
+*.f90
+*.lprof
+.ipynb_checkpoints
+__pycache__
+
+notebooks/fail.html

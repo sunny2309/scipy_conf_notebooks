@@ -1,0 +1,28 @@
+name: dask-scipy
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - dask
+ - dask-ml
+ - distributed
+ - graphviz
+ - h5py
+ - ipywidgets
+ - jupyter
+ - jupyterlab
+ - matplotlib
+ - memory_profiler
+ - numba
+ - numpy
+ - pandas
+ - pillow
+ - pytables
+ - python=3.6
+ - s3fs
+ - scikit-image
+ - scikit-learn
+ - scipy
+ - snakeviz
+ - gcsfs
+ - python-graphviz

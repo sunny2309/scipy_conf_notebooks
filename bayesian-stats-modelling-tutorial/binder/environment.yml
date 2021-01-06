@@ -1,0 +1,46 @@
+name: bayesian-modelling-tutorial
+channels:
+- conda-forge
+- defaults
+- anaconda
+- ericmjl
+dependencies:
+- python=3.7
+- jupyter
+- jupyterlab
+- pymc3
+- pip
+- seaborn
+- matplotlib
+- numpy
+- scipy
+- pandas
+- tqdm
+- missingno
+- scikit-learn
+- nodejs
+- pyjanitor
+- xarray
+- pandoc
+- black
+- nbstripout
+- pylint
+- arviz
+- theano
+- ipykernel
+- hvplot
+- bokeh
+- holoviews
+- mkl
+- mkl-service
+- pre-commit
+- networkx
+- mamba
+- pyprojroot
+- faker
+- pip:
+  - mkdocs
+  - mkdocs-material
+  - mknotebooks
+  - daft
+  # Need to add pip install from github for repo, so solutions can be executed.
